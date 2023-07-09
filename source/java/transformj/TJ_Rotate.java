@@ -114,6 +114,7 @@ public class TJ_Rotate implements PlugIn, WindowListener {
 			
 		} catch (Throwable e) {
 			TJ.error("An unidentified error occurred while running the plugin");
+			TJ.error(e.getMessage());
 			
 		}
 	}
